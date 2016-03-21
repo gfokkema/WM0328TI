@@ -1,0 +1,62 @@
+1.
+Whole genome sequencing has become increasingly feasible the last years:
+- 1990 first posited
+- 2003 first whole genome, cost 3 billion
+- 2014 cost only 5000, 2-3 days
+- cost 1000, 1 day is soon a reality
+
+Several opportunities, but also raises ethical questions:
+- targeted medicines according to genome profile
+- privacy issues, framework for CS:
+- - what security / privacy is needed in each handling step?
+- - what threat models are realized at each step?
+- - open computational research problems?
+
+2.
+One likely scenario for use is a company which uses genomic data to explore family trees.
+Suppose it is later discovered that your genomic profile indicates you are vulnerable to dementia.
+The company has this data as well.
+Sharing genomic data therefore might result in unexpected or undesired consequences.
+
+DNA based data is of long-lived value, contrary to most other tests, and distinguished by:
+- kinship
+- health
+- traceable
+- unique
+- mystique
+- value
+Therefore DNA data is 'exceptional' and warrants particular care.
+
+3.
+This section reviews several major applications:
+
+3.1. Health Care
+
+3.2. Research
+
+3.3. Direct-to-Consumer Services
+Genome sequencing has become feasible for individuals and has led to applications such as:
+- genetic compatibility tests with potential partners
+- personal 'genome passport'
+- track kinship
+
+3.4. Legal and Forensic
+DNA data can be used for tracking:
+- parentage suits
+- track down suspected criminals
+- - use kinship data to determine likely identity of perpetrator
+- - unclear whether law enforcement may retain and/or use in the future
+- - currently 'abandoned' DNA may be used without consent
+
+4.
+
+5.1.
+5.2.
+5.3.
+5.4.
+5.5.
+5.6.
+
+6.1.
+6.2.
+6.3.
