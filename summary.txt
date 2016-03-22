@@ -11,24 +11,33 @@ Stellingen:
 - Familie DNA geef je ook weg met je eigen DNA, (verzin stelling hierover :p)
 
 1.
-Whole genome sequencing has become increasingly feasible the last years:
+Whole genome sequencing has become increasingly feasible the last years, especially since the Human Genone Project had completed its goals in 2003:
 - 1990 first posited
 - 2003 first whole genome, cost 3 billion
 - 2014 cost only 5000, 2-3 days
 - cost 1000, 1 day is soon a reality
 
 Several opportunities, but also raises ethical questions:
-- targeted medicines according to genome profile
+- targeted medicines according to genome profile "right drug at the right time"
+- biomedical research
+- direct-to-consumer services (eg disease risk tests)
+- forensics
 - privacy issues, framework for CS:
 - - what security / privacy is needed in each handling step?
+- - - "The privacy issues associated with genomic data are complex, particularly because such 
+        data has a wide range of uses and provides information on more than just the individual 
+        from which the data was derived."
+- - - there is a great fear of the unknown, we learn new things about the genome
 - - what threat models are realized at each step?
 - - open computational research problems?
+
+- Some treat genomic data no differently than traditional health data, though many believe that it should be handled with care
 
 2.
 One likely scenario for use is a company which uses genomic data to explore family trees.
 Suppose it is later discovered that your genomic profile indicates you are vulnerable to dementia.
 The company has this data as well.
-Sharing genomic data therefore might result in unexpected or undesired consequences.
+Sharing genomic data therefore might result in unexpected or undesired consequences, eg drug companies targeting her
 
 DNA based data is of long-lived value, contrary to most other tests, and distinguished by:
 - kinship
@@ -38,6 +47,9 @@ DNA based data is of long-lived value, contrary to most other tests, and disting
 - mystique
 - value
 Therefore DNA data is 'exceptional' and warrants particular care.
+DNA is a long-term value so it can be held and used over extended periods of time, while temperature / blood pressure is short-term
+
+Can change your outlook, if you know too much, eg if you know you might get dementia, will you act/do thingd different. Will your family? 
 
 3.
 This section reviews several major applications:
