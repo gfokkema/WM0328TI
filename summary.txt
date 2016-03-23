@@ -10,7 +10,7 @@ Stellingen:
 - When should prenatal scanning be allowed to influence the discussion for abortion?
 - Familie DNA geef je ook weg met je eigen DNA, (verzin stelling hierover :p)
 
-1.
+1. Introduction
 Whole genome sequencing has become increasingly feasible the last years, especially since the Human Genone Project had completed its goals in 2003:
 - 1990 first posited
 - 2003 first whole genome, cost 3 billion
@@ -33,7 +33,7 @@ Several opportunities, but also raises ethical questions:
 
 - Some treat genomic data no differently than traditional health data, though many believe that it should be handled with care
 
-2.
+2. Special features of genomic data
 One likely scenario for use is a company which uses genomic data to explore family trees.
 Suppose it is later discovered that your genomic profile indicates you are vulnerable to dementia.
 The company has this data as well.
@@ -49,14 +49,20 @@ DNA based data is of long-lived value, contrary to most other tests, and disting
 Therefore DNA data is 'exceptional' and warrants particular care.
 DNA is a long-term value so it can be held and used over extended periods of time, while temperature / blood pressure is short-term
 
-Can change your outlook, if you know too much, eg if you know you might get dementia, will you act/do thingd different. Will your family? 
+Can change your outlook, if you know too much, eg if you know you might get dementia, will you act/do things different. Will your family? 
 
-3.
+3. Uses of Genomic data
 This section reviews several major applications:
 
 3.1. Health Care
+Mutations in an individual's genomic sequence can influence one's well being, eg diseases
+Some of these diseases can be mananged, if known, some aren't
+Some individuals choose to learn their genetic status so they can plan their future, or contribute to medical research
+Can be applied in prenatal scanning 
 
 3.2. Research
+Often to support the health care domain
+Because of the decrease in cost of genome sequencing means data can be collected, stored and analyzes for hundreds of thousands of people
 
 3.3. Direct-to-Consumer Services
 Genome sequencing has become feasible for individuals and has led to applications such as:
@@ -70,17 +76,54 @@ DNA data can be used for tracking:
 - track down suspected criminals
 - - use kinship data to determine likely identity of perpetrator
 - - unclear whether law enforcement may retain and/or use in the future
+- - - at the moment in the USA, DNA can be retained of suspects, even if the suspect is not prosecuted
+- - - The individual relinquishes rights of ownership of their dna, and it can be sequenced
 - - currently 'abandoned' DNA may be used without consent
 
-4.
+4. Relevance of genome privacy
+Genomic data has numerous distinguishing features and applications.
+If leaked, this information can be misused
+- genetic discrimination
+- - Insurance
+- - Employment
+- - Education
+- blackmail
+- what may happen in the future, what will then be revealed
+- privacy sensitivity of genomic data, and the potential treats will most likely increase over time.
+- Helicopter pilot, who got rejected because her scan showed mutations for cancer, military is allowed to discriminate 
+- Henrietta Lack, died 1951, who's cervical cancer cells helped with important developments in medical treatments. Her genomes were sequenced and published, without asking consent from her living family. They complained, due to the information this would give about her family, but by then it was too late, the data had already been downloaded and parts of it had been published.
+- There is no consensus about the scope of control that individuals and their families ought to have over the downstream of their cells.
+- Thousands of people have placed their genomic data on the web without seeking permission of their relatives.
+- Threats emerging form genomic data are only possible via the leakage of such data, eg reckless clinician, breached it system, the sequencing facility, malware from your phone if stored there, even by the individuals themselves by uploading their data with their name attached.
+- Since 2007, in the USA, prohibits certain types of discrimination in access to health insurance and employment
+- There are, in fact, hundreds of legal systems in the world, ranging in scope from federal to state/province and municipality level, each of which can adopt different definitions, rights, and responsibilities for an individual’s privacy.
+- challenging to enforce, as uses of data cannot always be detected
+- the potential importance of genomic data for mankind is tremendous, privacy can be considered a obstacle
+- for advances in medicine, large numbers of  participants are needed
+- trust is then needed, and an insurance of privacy
+- need techniques that will guarantee the security and privacy of genomic data, without significantly degrading the efficiency of the use of genomic data in research
 
-5.1.
-5.2.
-5.3.
-5.4.
-5.5.
-5.6.
+(CHAPTER 5 COULD BE SKIPPED IN MY OPINION)
+5. Genomics / Genetics Expert Opinion
+5.1. Objective - Asked a group of biomentical researchers about privacy and security issues
+5.2. Survey Design
+5.3. Data Collection Methodology
+5.4. Potential Biases
+5.5. Findings
+5.6. Discussion
 
-6.1.
-6.2.
-6.3.
+6. Known Privacy Risks
+6.1. Re-identification threats
+-Re-identification -> recover the identities of the individuals involved
+-Pseudo-anonymized Data -> recover eye/hair/skin colours, which will lead to the donor's identification from genotypes
+-Attacks on Machine-Learning Models -> can also reveal information about the people whose data was used to train the models
+6.2. Phenotype Inference
+-Aggregate Genomic Data
+-Correlation of Genomic Data
+-Kin Privacy Breach     -> if both parents are genotyped, then most of the variants for their offspring can be inferred
+                        -> Such reconstruction attacks can be carried out using
+                                (i) (partial) genomic data of a subset of family members, and 
+                                (ii) publicly known genomic background information.
+6.3. Other threats
+- Anonymous Paternity Breach -> DNA testing has made tracing anonymous sperm donors easy; thus, theoretically, sperm donors can no longer be anonymous
+- Legal and Forensic -> Can be abused, staging crimes
