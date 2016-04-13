@@ -69,6 +69,16 @@ DNA data can be used for tracking:
 5.5.
 5.6.
 
+6.
+Threats:
 6.1.
+Re-identification of pseudo-anonimized data, for example from donors.
 6.2.
+Phenotype inference through aggregate genomic data:
+- only 75 SNP's are needed for identification
+- correlation of genomic data
+- kinship breach (when a kid gives up DNA, the parent can be identified)
 6.3.
+Other threats:
+- anonymous paternity breach
+- legal and forensic
